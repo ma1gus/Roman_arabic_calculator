@@ -42,7 +42,7 @@ public class Calculator {
         }
 
         if (n == 0) {
-            //Преобразование строки в чило
+            //Преобразование строки в чиcло
             n = Integer.parseInt(converterRomArab);
         }
         return (n);
@@ -78,7 +78,7 @@ public class Calculator {
         return booleanResultRoman;
     }
 
-    //Проверка соответствует ли вводимое число римскому
+    //Проверка соответствует ли вводимое число арабскому
     public static boolean arabicCheck(String stringArabic) {
 
         HashSet<String> arabicSet = new HashSet<>();
